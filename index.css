@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Martian+Mono:wght@300&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Gabarito', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
 }
 
 .container{
@@ -10,22 +11,26 @@
 }
 
 .sidebar{
-    background-color: rgb(226, 208, 208);
-    width: 10vw;
+    background-color: rgb(108, 104, 104);
+    width: 434px;
     height: 100vh;
 }
 .sidebar nav{
-   padding: 25px;
+   padding: 10px;
 }
 .sidebar nav li{
     list-style: none;
-    font-size: 20px;
     padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
 }
 
 .main{
     /* background-color: yellow; */
-    width: 90vw;
+    width: 85vw;
 }
 
 .infoContainer{
@@ -48,8 +53,7 @@
 }
 .name{
     font-size: 50px;
-    font-weight: bold;
-    font-family: 'Martian Mono', monospace;
+    font-weight: 700;
 }
 .about{
     font-size: 40px;
@@ -57,6 +61,7 @@
 }
 .moreAbout{
     font-size: 22px;
+    margin-top: 23px;
 }
 .buttons{
     margin-top: 34px;
@@ -71,10 +76,14 @@
     color: white;
     margin: 0 3px;
     width: 200px;
+    cursor: pointer;
 }
-
+.buttons button:hover{
+ color: dodgerblue;
+ background-color: white;
+}
 .devPic img{ 
-    height: 58vh;
+    height: 68vh;
     justify-content: space-around;
 
 }
